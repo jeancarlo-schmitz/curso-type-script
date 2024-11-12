@@ -1,0 +1,48 @@
+# Diretórios node_modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Arquivos temporários e de cache
+.temp/
+.cache/
+*.tmp
+*.log
+
+# Arquivos de configuração de ambiente
+.env
+.env.*.local
+
+# Arquivos de saída do TypeScript
+*.tsbuildinfo
+
+# Dependências criadas pelo npm ou Yarn
+package-lock.json
+yarn.lock
+
+# Configurações do editor e IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Arquivos de compilação e saída no TypeScript
+*.js
+*.jsx
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Arquivos de saída do TypeScript para diretórios específicos (caso não use uma pasta de build dedicada)
+out/
+coverage/
+
+# Arquivos de testes e relatórios
+coverage/
+*.test.ts
+*.spec.ts
+
+# Configurações de sistema operacional e arquivos ocultos
+Thumbs.db
+*.DS_Store
